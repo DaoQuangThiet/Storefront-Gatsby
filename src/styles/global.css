@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .textlogin {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textregister {
+        text-decoration: none;
+        color: black;
+    }
+
+    .texthome {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textfeature {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textshop {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textblog {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textond {
+        text-decoration: none;
+        color: black;
+    }
+
+    .textpage {
+        text-decoration: none;
+        color: black;
+    }
+}

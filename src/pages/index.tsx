@@ -5,6 +5,8 @@ import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { CollectionCard } from "../components/collection-card"
+import Carousel from 'react-bootstrap/Carousel'
+import 'bootstrap/dist/css/bootstrap.css'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -37,10 +39,21 @@ const IndexPage = () => {
       <Seo title="Home" />
       {/* Hero section */}
       <div className="relative">
+        <Carousel >
+          <Carousel.Item interval={2500}  >
+            <StaticImage src="../images/slider2.png" alt="Slider 01" layout="fixed" />
+          </Carousel.Item>
+          <Carousel.Item interval={2500} >
+            <StaticImage src="../images/slider02.png" alt="Slider 01" layout="fixed" />
+          </Carousel.Item>
+          <Carousel.Item interval={2500} >
+            <StaticImage src="../images/slider03.png" alt="Slider 01" layout="fixed" />
+          </Carousel.Item>
+        </Carousel>
         {/* Decorative image and overlay */}
-        <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
-          {
-            <StaticImage src="../images/slider01.png" alt="Slider 01" layout="fixed" />
+        {/* <div aria-hidden="true" className="absolute inset-0 overflow-hidden"> */}
+        {
+            // <StaticImage src="../images/slidercanva.png" alt="Slider 01" layout="fixed" />
           /* {headerImage ? (
             <GatsbyImage
               alt="header"
@@ -54,14 +67,14 @@ const IndexPage = () => {
               alt="header"
             />
           )} */}
-          <div className="absolute inset-0 bg-[url('../images/slider2.png')]" />
-        </div>
+        {/* <div className="absolute inset-0 bg-[url('../images/slidercanva.png')]" /> */}
+        {/* </div> */}
         {/* <div
           aria-hidden="true"
           className="absolute inset-0 bg-gray-900 opacity-50"
         /> */}
-        <div className="relative max-w-3xl mx-auto py-32 px-6 flex flex-col items-center text-center h-[820px] sm:py-64 lg:px-0">
-          {/* <h1 className="text-5xl font-light tracking-tight text-white lg:text-6xl">
+        {/* <div className="relative max-w-3xl mx-auto py-32 px-6 flex flex-col items-center text-center h-[820px] sm:py-64 lg:px-0"> */}
+        {/* <h1 className="text-5xl font-light tracking-tight text-white lg:text-6xl">
             Vendure Gatsby Starter
           </h1>
           <p className="mt-4 text-xl text-white">
@@ -80,7 +93,7 @@ const IndexPage = () => {
               Gatsby
             </a>
           </p> */}
-        </div>
+        {/* </div> */}
       </div>
 
       <section

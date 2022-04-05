@@ -29,13 +29,13 @@ const Header = ({ siteTitle, onCartClick }) => {
   const activeOrder = cartData?.activeOrder;
   const cartQuantity = activeOrder?.totalQuantity ?? 0;
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-blue-500 shadow-lg">
-      <div className="max-w-6xl mx-auto p-2 space-x-[550px] flex">
+    <header className=" shadow-lg">
+      <div className=" bg-gradient-to-r from-blue-500 to-blue-500 mx-auto p-[8px] space-x-[550px] flex pl-[350px]">
         <div className="text-white flex items-center w-[300px] ">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
           </svg>
-          <p className="text-sm"> 1.866.614.8002  | Login | Currency: USD, $</p>
+          <p className="text-sm mb-[2px]"> 1.866.614.8002  | Login | Currency: USD, $</p>
           {/* <Link to="/">
             <StaticImage
               src="../images/cube-logo-line-icon-nostroke-white.png"
@@ -142,7 +142,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </button>
         </div> */}
       </div>
-      <div className="p-4 pl-[365px] bg-white flex items-center space-x-20 ">
+      <div className="headercenter p-4 bg-white flex items-center space-x-20 container ">
         <h1 className="text-white ">
           <Link to="/">
             <StaticImage
@@ -161,9 +161,9 @@ const Header = ({ siteTitle, onCartClick }) => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
           </svg>
           <div >
-            <Link to="/" className="hover:text-blue-600 font-medium" > Login  </Link>
+            <Link to="/" className="textlogin hover:text-blue-600 font-medium" > Login  </Link>
             |
-            <Link to="/" className="hover:text-blue-600 font-medium">  Register  </Link>
+            <Link to="/" className="textregister hover:text-blue-600 font-medium">  Register  </Link>
           </div>
         </div>
         <div className="">
@@ -181,38 +181,38 @@ const Header = ({ siteTitle, onCartClick }) => {
           <div className="w-full border-t border-slate-300"></div>
         </div>
         <div className="w-[1170px] h-[40px] pl-[365px] flex space-x-10 pt-[7px]">
-          <Link to="/" className="flex hover:text-blue-600">
-            <div className="font-medium text-base">HOME</div>
+          <Link to="/" className="texthome flex hover:text-blue-600">
+            <div className=" font-medium text-base">HOME</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="flex hover:text-blue-600">
-            <div className="font-medium  text-base">FEATURE</div>
+          <Link to="/" className="textfeature flex hover:text-blue-600">
+            <div className=" font-medium  text-base">FEATURE</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="flex hover:text-blue-600">
-            <div className="font-medium text-base">SHOP</div>
+          <Link to="/" className="textshop flex hover:text-blue-600">
+            <div className=" font-medium text-base">SHOP</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="flex hover:text-blue-600">
-            <div className="font-medium  text-base">BLOG</div>
+          <Link to="/" className="textblog flex hover:text-blue-600">
+            <div className=" font-medium  text-base">BLOG</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="flex hover:text-blue-600">
-            <div className="font-medium text-base">ONLINE DESIGN</div>
+          <Link to="/" className="textond flex hover:text-blue-600">
+            <div className=" font-medium text-base">ONLINE DESIGN</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="flex hover:text-blue-600">
-            <div className="font-medium  text-base">PAGES</div>
+          <Link to="/" className="textpage flex hover:text-blue-600">
+            <div className=" font-medium  text-base">PAGES</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>

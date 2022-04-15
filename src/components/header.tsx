@@ -61,7 +61,7 @@ const Header = ({ siteTitle, onCartClick }) => {
         <div className="flex space-x-5 w-[300px]">
           <a href="#">
             <svg
-              className="w-6 h-6 text-white-800 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24">
               <path
@@ -71,7 +71,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </a>
           <a href="#">
             <svg
-              className="w-6 h-6 text-blue-300 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24">
               <path
@@ -81,7 +81,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </a>
           <a href="#">
             <svg
-              className="w-6 h-6 text-green-400 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512">
               <path
@@ -91,7 +91,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </a>
           <a href="#">
             <svg
-              className="w-6 h-6 text-red-500 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512">
               <path
@@ -101,7 +101,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </a>
           <a href="#">
             <svg
-              className="w-6 h-6 text-gray-400 text-blue-400 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512">
               <path
@@ -111,7 +111,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </a>
           <a href="#">
             <svg
-              className="w-6 h-6 text-red-500 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -121,7 +121,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </a>
           <a href="#">
             <svg
-              className="w-6 h-6 text-pink-600 fill-current"
+              className="w-6 h-6 text-blue-50 fill-current"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -142,7 +142,7 @@ const Header = ({ siteTitle, onCartClick }) => {
           </button>
         </div> */}
       </div>
-      <div className="headercenter p-4 bg-white flex items-center space-x-20 container ">
+      <div className="headercenter pt-[15px] pb-[15px] bg-white flex items-center space-x-20 container ">
         <h1 className="text-white ">
           <Link to="/">
             <StaticImage
@@ -181,37 +181,37 @@ const Header = ({ siteTitle, onCartClick }) => {
           <div className="w-full border-t border-slate-300"></div>
         </div>
         <div className="w-[1170px] h-[40px] pl-[365px] flex space-x-10 pt-[7px]">
-          <Link to="/" className="texthome flex hover:text-blue-600">
-            <div className=" font-medium text-base">HOME</div>
+          <Link to="#" className="texthome flex hover:text-blue-600">
+            <div className="font-medium text-base">HOME</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="textfeature flex hover:text-blue-600">
+          <Link to="#" className="textfeature flex hover:text-blue-600">
             <div className=" font-medium  text-base">FEATURE</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="textshop flex hover:text-blue-600">
+          <Link to="#" className="textshop flex hover:text-blue-600">
             <div className=" font-medium text-base">SHOP</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="textblog flex hover:text-blue-600">
+          <Link to="#" className="textblog flex hover:text-blue-600">
             <div className=" font-medium  text-base">BLOG</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="textond flex hover:text-blue-600">
+          <Link to="#" className="textond flex hover:text-blue-600">
             <div className=" font-medium text-base">ONLINE DESIGN</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px] " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </Link>
-          <Link to="/" className="textpage flex hover:text-blue-600">
+          <Link to="#" className="textpage flex hover:text-blue-600">
             <div className=" font-medium  text-base">PAGES</div>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-[20px] w-6 mt-[2px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />

@@ -5,6 +5,7 @@ import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { CollectionCard } from "../components/collection-card"
+import { CategoriNewprint } from "../components/categori-newprint"
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css'
 
@@ -95,6 +96,360 @@ const IndexPage = () => {
           </p> */}
         {/* </div> */}
       </div>
+
+      {/* BUSINESS CART */}
+      <div className="p-[65px] flex items-center space-x-8">
+        <div className="relative w-[595px] flex items-center space-x-8">
+          <div className="absolute content_left">
+            <StaticImage
+              src="../images/image1.jpg"
+              width={598}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Vendure logo"
+            />
+          </div>
+          <div className="relative pb-[80px]">
+            <h4 className="text-lg font-medium text-gray-800">BUSINESS CARD</h4>
+            <div className="text-blue-600 font-bold text-4xl">NOW 25% OFF.</div>
+            <h5 className="text-gray-500 text-lg ">Savings on select products starting</h5>
+            <h5 className="text-gray-500 text-lg "> at 25% off. Discount percentages</h5>
+            <h5 className="text-gray-500 text-lg ">  may vary on options, upgrades,</h5>
+            <h5 className="text-gray-500 text-lg "> & accessories.</h5>
+            <div className="absolute pt-[10px]">
+              <button className="border-solid border-1 border-blue-400 font-bold rounded text-xs hover:bg-blue-500	w-[89px] h-[30px] text-blue-400 p-[5px] hover:text-gray-50">SHOP NOW !</button>
+            </div>
+          </div>
+
+        </div>
+        <div className="relative w-[594.33px] flex items-center space-x-8">
+          <div className="absolute content_left2">
+            <StaticImage
+              src="../images/image2.jpg"
+              width={598}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Vendure logo"
+            />
+          </div>
+          <div className="relative  pb-[80px]">
+            <h4 className="text-lg font-medium text-gray-800">BUSINESS CARD</h4>
+            <div className="text-blue-600 font-bold text-4xl">NOW 5% OFF.</div>
+            <h5 className="text-gray-500 text-lg">Savings on select products starting</h5>
+            <h5 className="text-gray-500 text-lg" >at 5% off. Discount percentages</h5>
+            <h5 className="text-gray-500 text-lg" >may vary on options, upgrades,</h5>
+            <h5 className="text-gray-500 text-lg">& accessories.</h5>
+            <div className="absolute pt-[10px]">
+              <button className="border-solid border-1 border-blue-400 font-bold rounded text-xs hover:bg-blue-500	w-[89px] h-[30px] text-blue-400 p-[5px] hover:text-gray-50">SHOP NOW !</button>
+            </div>
+          </div>
+
+        </div>
+        <div className="relative w-[594.33px] flex items-center space-x-8">
+          <div className="absolute content_left3">
+            <StaticImage
+              src="../images/image3.jpg"
+              width={598}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Vendure logo"
+            />
+          </div>
+          <div className="relative  pb-[80px]">
+            <h4 className="text-lg font-medium text-gray-800">BUSINESS CARD</h4>
+            <div className="text-blue-600 font-bold text-4xl">NOW 10% OFF.</div>
+            <h5 className="text-gray-500 text-lg">Savings on select products starting</h5>
+            <h5 className="text-gray-500 text-lg"> at 10% off. Discount percentages</h5>
+            <h5 className="text-gray-500 text-lg">  may vary on options, upgrades,</h5>
+            <h5 className="text-gray-500 text-lg"> & accessories.</h5>
+            <div className="absolute pt-[10px]">
+              <button className="border-solid border-1 border-blue-400 font-bold rounded text-xs hover:bg-blue-500	w-[89px] h-[30px] text-blue-400 p-[5px] hover:text-gray-50">SHOP NOW !</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/***************NEW PRINT TEMPLATES*****************/}
+      <div className="con_newprint container">
+        <div className="h_newprint">
+          <div className="cont_newprint">
+            <div className="cont_1 text-center">
+              <h4 className="">NEW PRINT TEMPLATES</h4>
+              <p className="">THINGS WE KNOW YOU'LL LOVE</p>
+            </div>
+            <div className="cont2 p-3">
+              <ul className="btn_cate flex space-x-3 pl-[340px]">
+                 <Link to="#" className="no-underline">
+                   <li className="border-solid border-1 border-slate-500 text-slate-500  font-bold rounded text-sm bg-blue-500 text-gray-50 p-2">ALL TYPES</li>
+                 </Link>
+                 <Link to="#" className="no-underline">
+                   <li className="border-solid border-1 border-slate-500 text-slate-500  font-bold rounded text-sm hover:bg-blue-500 hover:text-gray-50 p-2">SQUARE</li>
+                 </Link>
+                 <Link to="#" className="no-underline">
+                   <li className="border-solid border-1 border-slate-500 text-slate-500  font-bold rounded text-sm hover:bg-blue-500 hover:text-gray-50 p-2">MINI</li>
+                 </Link>
+                 <Link to="#" className="no-underline">
+                   <li className="border-solid border-1 border-slate-500 text-slate-500  font-bold rounded text-sm hover:bg-blue-500 hover:text-gray-50 p-2">ROUNDED CORNER</li>
+                 </Link>
+                 <Link to="#" className="no-underline">
+                   <li className="border-solid border-1 border-slate-500 text-slate-500  font-bold rounded text-sm hover:bg-blue-500 hover:text-gray-50 p-2">FOLDED</li>
+                 </Link>
+                 <Link to="#" className="no-underline">
+                     <li className="border-solid border-1 border-slate-500 text-slate-500  font-bold rounded text-sm hover:bg-blue-500 hover:text-gray-50 p-2">PERFORATED</li>
+                 </Link>
+              </ul>
+            </div>
+          </div>
+          {/***************TAB PRODUCT**************/}
+          <div className="tab_product">
+            <div className="grid_product grid grid-cols-4 gap-5 ">
+              <div className="single_product">
+                <div className="img_product">
+                  <Link to="#" className="no-underline"> 
+                    <StaticImage
+                        src="../images/01.jpg"
+                        width={598}
+                        quality={95}
+                        formats={["auto", "webp", "avif"]}
+                        alt="Vendure logo"
+                      />
+                  </Link>
+                </div>
+                <div className="title_product">
+                 <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/02.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/03.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/04.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/05.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/06.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/07.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div className="single_product">
+                <div className="img_product ">
+                  <Link to="#" className="no-underline">
+                    <StaticImage
+                      src="../images/08.jpg"
+                      width={598}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />
+                  </Link>
+                </div>
+                <div className="title_product">
+                  <Link to="#" className="no-underline">
+                  <p className="text-slate-700 text-lg	font-medium mt-[20px] hover:text-blue-500">Pro Card Visit A1 (Copy)</p>
+                 </Link>
+                </div>
+                <div className="price_product">
+                  <p className="text-blue-600 font-bold text-lg">10$</p>
+                </div>
+                <div className="des_product">
+                  <p className="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       {/********HOW WE MAKE PRINTING AS EASY************/}
+       <div className="relative pt-[100px]">
+          <div className="bg-fixed h-[660px] bg-[url('../images/a11.jpg')]">
+                {/* <StaticImage
+                  className="w-full h-[660px]"
+                  src="../images/a1.jpg"
+                  quality={95}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                /> */}
+                <div className="top_howme container text-center pt-[50px]">
+                    <h4>HOW WE MAKE PRINTING AS EASY</h4>
+                    <p>CHOOSE THE DESIGN PATH THAT IS RIGHT BEFORE UPLOAD FILE</p>
+                  </div>
+                <div className="button_howme flex items-center space-x-28  container">
+                    <div className="left_img p-[10px] ">
+                      <StaticImage
+                        src="../images/a2.png"
+                        quality={95}
+                        formats={["auto", "webp", "avif"]}
+                        alt="Vendure logo"
+                      />
+                    </div>
+                    <div className="right_content">
+                      <div className="icon"></div>
+                      <div className="content ">
+                        <div className="ct_one">
+                          <h5>1. Select Options</h5>
+                          <p>Choose options that you want for your prints.We will </p>
+                          <p>make you happy with your choices.</p>
+                        </div>
+                        <div className="ct_two">
+                          <h5>2. Upload your design</h5>
+                          <p>Upload your finished design here and we'll print it for you</p>
+                          <p>with your choices.</p>
+                        </div>
+                        <div className="ct_three">
+                          <h5>3. Checkout & Order</h5>
+                          <p>Checkout and finish your order very easy with one step</p>
+                          <p> checkout extension.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+          </div>
+      </div>
+
+      {/************OUR SERVICES*********/}
+
+
 
       <section
         aria-labelledby="category-heading"

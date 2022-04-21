@@ -448,6 +448,216 @@ const IndexPage = () => {
       </div>
 
       {/************OUR SERVICES*********/}
+      <div className="our_service container p-11">
+        <div className="our_content">
+          <div className="top_our text-center">
+            <h4>OUR SERVICES</h4>
+            <p>CHOOSE THE DESIGN PATH THAT IS RIGHT BEFORE UPLOAD FILE</p>
+          </div>
+          <div className="button_our">
+            <div className="grid grid-cols-4 gap-5 ">
+              <div className="pro_1 relative">
+                <div className="img__">
+                  <Link to="#">
+                    <StaticImage
+                      src="../images/b1.jpg"
+                      quality={95}
+                      width={350}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />  
+                  </Link>
+                </div>
+                <div className="desc__ bg-gray-100">
+                  <Link to="#" className="no-underline">
+                    <h5 className="text-zinc-900 hover:text-blue-500 pl-[10px]">Custom Prints</h5>
+                  </Link>
+                  <p className="text-gray-600 pl-[10px]">We'll bring your ideas to life!</p>
+                </div>
+              </div>
+              <div className="pro_2 relative">
+                <div className="img__">
+                  <Link to="#">
+                    <StaticImage
+                      src="../images/b2.jpg"
+                      quality={95}
+                      width={350}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />  
+                  </Link>
+                </div>
+                <div className="desc__ bg-gray-100">
+                  <Link to="#" className="no-underline">
+                    <h5 className="text-zinc-900 hover:text-blue-500 pl-[10px]">Free file check</h5>
+                  </Link>
+                  <p className="text-gray-600 pl-[10px]">We’ll if your file is ready to print!</p>
+                </div>
+              </div>
+              <div className="pro_3 relative">
+                <div className="img__">
+                  <Link to="#">
+                    <StaticImage
+                      src="../images/b3.jpg"
+                      quality={95}
+                      width={350}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />  
+                  </Link>
+                </div>
+                <div className="desc__ bg-gray-100">
+                  <Link to="#" className="no-underline">
+                    <h5 className="text-zinc-900 hover:text-blue-500 pl-[10px]">Graphic Design</h5>
+                  </Link>
+                  <p className="text-gray-600 pl-[10px]">Let us design your next print project!</p>
+                </div>
+              </div>
+              <div className="pro_4 relative">
+                <div className="img__">
+                  <Link to="#">
+                    <StaticImage
+                      src="../images/b4.jpg"
+                      quality={95}
+                      width={350}
+                      formats={["auto", "webp", "avif"]}
+                      alt="Vendure logo"
+                    />  
+                  </Link>
+                </div>
+                <div className="desc__ bg-gray-100">
+                  <Link to="#" className="no-underline">
+                    <h5 className="text-zinc-900 hover:text-blue-500 pl-[10px]">Mailing</h5>
+                  </Link>
+                  <p className="text-gray-600 pl-[10px]">Delivery, we can hand it all for you!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*********PART- ONLINE DESIGN */}
+      <div className="container_ond">
+        <div className="cont2_ond text-center">
+          <div className="head_ond container">
+            <h4>ONLINE DESIGN</h4>
+            <p>THINGS WE KNOW YOU'LL LOVE</p>
+          </div>
+          <div className="button_ond grid grid-cols-5 w-full">
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c1.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c2.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c3.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c4.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c5.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c6.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c7.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c8.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c9.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+            <div className="img__">
+              <Link to="#">
+                <StaticImage
+                  src="../images/c10.jpg"
+                  quality={95}
+                  width={390}
+                  formats={["auto", "webp", "avif"]}
+                  alt="Vendure logo"
+                />  
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
